@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="keywords" content="Eduard, cv, Resume">
+     <meta name="description" content="Это сайт - резюме Эдуарда Волкова">
+    <title>Эдуард Волков</title>
+  <style>
+    .container{
+      max-width: 750px;    
+      margin: auto;
+    }
+
+
+  </style>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="info"> 
+      <img src="мое фото.jpg"  alt="фото Эдуарда Волкова" class="avatar">
+
+      <div class="info-text">
+        <h1><em>Эдуард Волков</em></h1>
+
+        <p>Я учусь программировать на языке <strong> HTML, CSS, javaScript</strong></p>
+        <p>Я люблю программирование и самообразование</p>
+      </div>
+    </div>
+
+
+    <div class="card bg-green">
+     <h2><em>Мое хобби</em></h2>
+ 
+      <ol class="list"><h3>
+        <li><em>НУМИЗМАТИКА</em></li>
+        <li><em>ЛИТЕРАТУРА</em></li>
+        <li><em>КУЛИНАРИЯ</em></li>
+        <li><em>ПОКЕР</em></li>
+        <li><em>БЕГ</em></li>
+      </h3></ol>
+    </div>
+
+  
+    <div class="card bg-red">
+      <h2>Опыт работы</h2>
+
+      <table class="table">
+        <!--<thead>
+              <tr>
+              <th>Название</th>
+              <th>должность</th>
+              <th>год</th>
+              </tr>
+        </thead>-->
+
+        <tbody>
+          <tr>
+            <td>Наша Тема</td>
+            <td>Повар</td>
+            <td>07.07.2023-сейчас</td>
+          </tr>
+        </tbody>
+
+      </table>
+    </div>
+
+    <form action="/" class="form">
+      <div class="card bg-yellow">
+        <h2>Связаться со мной</h2>
+     
+        <div class="form-group">
+
+          <div class="form-group">
+            <label for="name">Ваше Имя:</label>
+            <input type="text" id="name" placeholder="Введите Имя">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите email">
+          </div>
+          
+        </div>
+
+        <div class="form-group">
+          <label for="message">Ваше сообщение</label>
+          
+          <textarea id="message" cols="32" rows="10" placeholder="Введите сообщение..."></textarea>
+        </div>
+                     <!--<input type="text">-->
+        <button class="btn" type="submit" >Отправить !</button>
+      
+      </div>
+    </form>
+  
+    
+    <hr color="rgb(33, 58, 58)">
+    <h4><em>здесь список социальных сетей</em></h4>
+    <a href="https://web.telegram.org/a/"target="_blank">telegram</a>
+
+
+  </div>
+</body>
+</html>
